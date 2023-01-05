@@ -9,6 +9,7 @@ public class E01 {
         double n1=entrada.nextDouble();
         System.out.println("Insira o segundo número");
         double n2=entrada.nextDouble();
+        entrada.close();
 
         double media=((n1*3.5)+(n2*7.5))/11;
 

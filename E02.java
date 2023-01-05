@@ -11,6 +11,8 @@ public class E02 {
         System.out.println("Insira o valor da hora : ");
         double n3=entrada.nextInt();
 
+        entrada.close();
+
         double salario=n2*n3;
 
         System.out.println("Número :"+n1+" Salário : "+salario);
